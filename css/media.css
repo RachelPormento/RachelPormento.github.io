@@ -1,0 +1,175 @@
+/* Large Tablet Devices */
+@media only screen
+and (max-width : 1090px) {
+  html, body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+  }
+
+
+}
+@media only screen
+and (max-width : 1025px) {
+	form input:first-child, form input:nth-child(2){display: block;width: 100%;position: static;}
+}
+
+@media only screen
+and (max-width : 1024px) {
+   /* Nav Area Sub-Menu Style */
+   nav li.menu-item-has-children > span{display:block;}
+   nav ul ul, nav ul ul li, 	nav ul ul li a {width:100%;}
+   nav ul ul li a {line-height: 40px;}
+   nav ul li:hover > ul{display: none;}
+}
+
+@media only screen
+and (min-width : 1011px) {
+
+  .header_con{position: fixed;width: 100%;z-index: 99999;}
+  #banner{margin-top: 90px;}
+
+}
+
+@media only screen
+and (max-width : 1000px) {
+
+  /*Header Area*/
+  header {padding: 0 12px;}
+
+  /*Nav Area*/
+  nav{clear: both; height:auto;margin:auto; padding:10px 10px 4px; transition:none; position:relative; width:100%; right:0; top:0; font-size: 0;}
+  nav ul{ margin:0; text-align:center;}
+  nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;}
+  nav ul li:after{content: "";}
+  nav ul li a{line-height: 40px;}
+
+  nav li.menu-item-has-children > span{display:block;}
+  nav ul ul, nav ul ul li, 	nav ul ul li a {width:100%;}
+  nav ul ul li a {line-height: 40px;}
+  nav ul li:hover > ul{display: none;}
+
+  /*Banner Area*/
+  #banner{text-align:center; height:auto; margin:0; padding: 10px;}
+    .box_skitter{display:none;}
+    .rslides{display:block;}
+
+  /*Middle Area*/
+  #middle {text-align:center; margin:0; padding:8px 8px 0;}
+    .middle_con section{width:32%; margin:0 3px 8px!important;}
+
+  /*Main Area*/
+  #main_area{padding:0; margin:0;}
+    main, .sidebar{float:none; margin: 10px auto; width:100%;padding: 10px 10px;}
+	main p{padding: 10px;}
+	main h1{padding: 20px 0 0;}
+    .side_box1{text-align: center; width: 100%; max-width: 100%; height: auto; margin: 0px auto; padding: 10px 10px 2px; margin-bottom: 12px;}
+    .side_box1 ul li{margin:0px 0px 6px !important; display:inline-block; width: 49%;}
+
+    .side_box2{width: 100%;}
+
+  /*Bottom Area*/
+  #bottom1{}
+    .btm1_con section{width:32%; margin:0 3px 8px!important;}
+	.btm1_con ul li:first-child, .btm1_con ul li:nth-child(3), .btm1_con ul li:nth-child(5){padding: 10px 45px 0 10px;}
+
+  /*Footer Area*/
+  footer{}
+  .ftr_con p{padding: 0 15px;}
+
+}
+
+@media only screen
+and (max-width : 800px) {
+	
+	/*Main Area*/
+	.main_img li{width: 300px;max-width: 100%;padding: 10px;}
+	
+	/*Bottom Area*/
+	.btm1_con ul li{display: block;width: 100%;position: static; margin: 10px auto;text-align: center;padding: 10px 10px;}
+	.btm1_con ul li:first-child:after, .btm1_con ul li:nth-child(3):after, .btm1_con ul li:nth-child(4):after{display: none;}
+	.btm1_con ul::before{display: none;}
+	.btm1_con ul li:first-child, .btm1_con ul li:nth-child(3), .btm1_con ul li:nth-child(5){padding: 30px; border: 1px solid #fff; margin: 30px auto;text-align: center;}
+	
+	.btm2_con ul li{display: block;width: 100%;position: static; margin: 10px auto;text-align: center;padding: 10px 10px;}
+	.btm2_con ul li:first-child:after, .btm2_con ul li:nth-child(3):after, .btm2_con ul li:nth-child(4):after{display: none;}
+	.btm2_con ul::before{display: none;}
+	.btm2_con ul li:first-child, .btm2_con ul li:nth-child(3), .btm2_con ul li:nth-child(5){padding: 30px; border: 1px solid #000; margin: 30px auto;text-align: center;}
+	
+	.btm4_con ul li{display: block; width: 100%;margin: 40px auto;padding: 10px 5px;}
+	
+	/*Footer Area*/
+	.ftr_btm{width: 600px;display: block;margin: 60px auto;max-width: 100%;  padding: 10px;}
+	.ftr_btm.cont_info::before{display: none;}
+	.ftr_btm.cont_info{text-align: center;padding: 10px;position: static;margin: 10px auto;}
+	
+	
+}
+
+@media only screen
+and (max-width : 750px) {
+  /*Header Area*/
+  .logo, .header_info{float:none; text-align:center; margin: 0 auto 20px;}
+
+  /*Footer Area*/
+  .footer_btm{padding: 24px 12px;}
+    .footer_nav ul{ margin:0; text-align:center; font-size: 0;}
+    .footer_nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;}
+    .footer_nav ul li:after{background: none;}
+    .footer_nav ul li a{line-height: 40px;}
+
+    .copyright{margin-top: 24px;}
+
+  /*Others*/
+  .sitemap{-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0;  column-gap: 0;}
+
+}
+
+/* Smartphones */
+@media only screen
+and (max-width : 600px) {
+  /*Nav Area*/
+  .nav_toggle_button{ display:block;}
+  nav{display: none; }
+  nav ul{margin: 0; padding: 0;}
+  nav ul li{width: 100%; display: block; margin: 0 auto 6px!important;}
+  nav span{top: -2px;}
+
+  nav ul ul{width:100%; position:relative;  transition:none;}
+  nav ul ul li {border:none; width:100%;}
+
+  /*Banner Area*/
+  .mobi_ban{display: block;}
+
+  /*Middle Area*/
+  .middle_con section{margin:0 auto 8px!important; width: 100%}
+
+  /*Main Area*/
+  main h1{font-size:;}
+
+  /*Bottom Area*/
+  .btm1_con section{margin:0 auto 8px!important; width: 100%}
+
+  /*Footer Area*/
+  .footer_comp{display:block; line-height: 28px;}
+  .footer_comp:before, .footer_comp:after{display: none;}
+  .footer_nav ul li{width:100%; margin: 0 auto 6px!important;}
+
+  /*Others*/
+  .col2, .col3{-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0;  column-gap: 0;}
+  .thumb_left_dd, .thumb_right_dd, .thumb_center_dd, .slider{display: none;}
+  main .bullet{padding-left:10px;}
+  .back_top{background: url(../images/back_top.png) no-repeat center #000; position: fixed; bottom: 10px; right: 10px; width: 43px; height: 43px; cursor: pointer; border-radius: 50%; z-index: 999;}
+  .back_top:hover{opacity: .6;}
+}
+
+/*@media only screen
+and (max-width : xxx) {}*/
+  /*Header Area*/
+  /*Nav Area*/
+  /*Banner Area*/
+  /*Middle Area*/
+  /*Main Area*/
+  /*Bottom Area*/
+  /*Footer Area*/
