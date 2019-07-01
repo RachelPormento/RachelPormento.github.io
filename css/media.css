@@ -61,7 +61,7 @@ and (max-width : 1000px) {
 
   /*Main Area*/
   #main_area{padding:0; margin:0;}
-    main, .sidebar{float:none; margin: 10px auto; width:100%;padding: 10px 10px;}
+    main{float:none; width:100%;padding: 10px 10px;}
 	main p{padding: 10px;}
 	main h1{padding: 20px 0 0;}
     .side_box1{text-align: center; width: 100%; max-width: 100%; height: auto; margin: 0px auto; padding: 10px 10px 2px; margin-bottom: 12px;}
@@ -87,16 +87,22 @@ and (max-width : 800px) {
 	.main_img li{width: 300px;max-width: 100%;padding: 10px;}
 	
 	/*Bottom Area*/
+	#bottom1{padding: 50px 10px;}
 	.btm1_con ul li{display: block;width: 100%;position: static; margin: 10px auto;text-align: center;padding: 10px 10px;}
 	.btm1_con ul li:first-child:after, .btm1_con ul li:nth-child(3):after, .btm1_con ul li:nth-child(4):after{display: none;}
 	.btm1_con ul::before{display: none;}
 	.btm1_con ul li:first-child, .btm1_con ul li:nth-child(3), .btm1_con ul li:nth-child(5){padding: 30px; border: 1px solid #fff; margin: 30px auto;text-align: center;}
 	
+	
+	.btm2_con{padding: 50px 10px;}
 	.btm2_con ul li{display: block;width: 100%;position: static; margin: 10px auto;text-align: center;padding: 10px 10px;}
 	.btm2_con ul li:first-child:after, .btm2_con ul li:nth-child(3):after, .btm2_con ul li:nth-child(4):after{display: none;}
 	.btm2_con ul::before{display: none;}
 	.btm2_con ul li:first-child, .btm2_con ul li:nth-child(3), .btm2_con ul li:nth-child(5){padding: 30px; border: 1px solid #000; margin: 30px auto;text-align: center;}
 	
+	#bottom3{padding: 50px 10px;}
+	
+	.btm4_con{padding: 50px 10px;}
 	.btm4_con ul li{display: block; width: 100%;margin: 40px auto;padding: 10px 5px;}
 	
 	/*Footer Area*/
@@ -113,13 +119,10 @@ and (max-width : 750px) {
   .logo, .header_info{float:none; text-align:center; margin: 0 auto 20px;}
 
   /*Footer Area*/
-  .footer_btm{padding: 24px 12px;}
     .footer_nav ul{ margin:0; text-align:center; font-size: 0;}
     .footer_nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;}
     .footer_nav ul li:after{background: none;}
     .footer_nav ul li a{line-height: 40px;}
-
-    .copyright{margin-top: 24px;}
 
   /*Others*/
   .sitemap{-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0;  column-gap: 0;}
@@ -127,6 +130,11 @@ and (max-width : 750px) {
 }
 
 /* Smartphones */
+@media only screen
+and (max-width : 650px) {
+	.copyright{position: static;text-align: center;}
+	.copyright a{float: none;position: static;display: block;margin: 25px auto 0;}
+}
 @media only screen
 and (max-width : 600px) {
   /*Nav Area*/
